@@ -375,6 +375,7 @@ end
 do
 	local legion = {}
 	local trainer = {42159, 40299, 40277, 42442, 40298, 40280, 40282, 41687, 40278, 41944, 41895, 40337, 41990, 40279, 41860}
+	local argusTrainer = {49041, 49043, 49045, 49047, 49049, 49051, 49053, 49055, 49057, 49042, 49044, 49046, 49048, 49050, 49052, 49054, 49056, 49058}
 	legion = {
 		name = "Legion",
 		achievements = {
@@ -395,6 +396,18 @@ do
 				{id = 9693, criteriaType = "QUESTS", criteria = trainer},
 				{id = 9694, criteriaType = "QUESTS", criteria = trainer},
 				{id = 9695, criteriaType = "QUESTS", criteria = trainer}}
+			},
+			{name = "Family Fighter", id = 12100, criteriaType = "ACHIEVEMENT", criteria = {
+				{id = 12089, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12091, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12092, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12093, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12094, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12095, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12096, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12097, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12098, criteriaType = "QUESTS", criteria = argusTrainer},
+				{id = 12099, criteriaType = "QUESTS", criteria = argusTrainer}}
 			},
 			{name = "Battle on the Broken Isles", id = 10876},
 			{name = "Fishing \'Round the Isles", id = 10598, criteriaType = "QUESTS", criteria = {
@@ -514,6 +527,8 @@ do
 			{name = "Pushing the Payload", id = 13440, criteriaType = "QUEST_SINGLE", criteria = 54498, faction = "Alliance"},
 			{name = "Doomsoul Surprise", id = 13435, criteriaType = "QUEST_SINGLE", criteria = 54689, faction = "Horde"},
 			{name = "Come On and Slam", id = 13426, criteriaType = "QUEST_SINGLE", criteria = 54512, faction = "Alliance"},
+			{name = "Boxing Match", id = 13439, criteriaType = "QUESTS", criteria = {{54524, 54516}}, faction = "Alliance"},
+			{name = "Boxing Match", id = 13438, criteriaType = "QUESTS", criteria = {{54524, 54516}}, faction = "Horde"},
 			-- 8.1.5
 			-- Circle, Square, Triangle
 			{name = "Master Calligrapher", id = 13512, criteriaType = "QUESTS", criteria = {{55340, 55342, 55343, 55344}, {55264, 55342, 55343, 55344}, {55341, 55342, 55343, 55344}}},
