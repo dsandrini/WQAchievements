@@ -1827,7 +1827,6 @@ function WQA:AnnouncePopUp(quests, silent)
 		local PopUp = CreateFrame("Frame", "WQAchievementsPopUp", UIParent, "UIPanelDialogTemplate")
 		self.PopUp = PopUp
 		tinsert(UISpecialFrames, PopUp:GetName())
-		PopUp:SetFrameStrata("HIGH")
 		PopUp:SetMovable(true)
 		PopUp:EnableMouse(true)
 		PopUp:RegisterForDrag("LeftButton")
